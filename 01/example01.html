@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="theme-color" content="orange">
     <title>Example 01</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" ></script>
+    <script src="aframe.js" ></script>
 </head>
 <body>
     <h1>Heading 1</h1>
@@ -17,6 +19,11 @@
     <h6>Heading 6</h6>
     <br>
     <h1>My Travel Log</h1>
+    <br>
+    <h2>360 VR Paranoma</h2>
+    <a-scene embedded style="width: 100%;height: 300px;">
+        <a-sky src="pano.jpg" ></a-sky>
+    </a-scene>
     <h2>List Of Visited Countries</h2>
     <ul>
         <li>Argentina</li>
@@ -29,10 +36,17 @@
     <h2>Image Gallery</h2>
     <img src="photo.jpg" alt="Photo" width="100%">
     <br>
-    <img src="animation.gif" alt="Animation" width="100%">
+    <img src="animation.gif" alt="Animation" width="100%" onclick="return speak()">
     <h2>Video</h2>
     <video src="video.mp4" width="300" height="200" controls >
 
     </video>
+    <h2>Contact and Social</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.twitter.com/">Twiter</a></li>
+        <li><a href="tel:+91-000000000">Call Me</a></li>
+        <li><a href="whatsapp://send?text=hello how are you">Whatsapp</a></li>
+    </ul>
 </body>
 </html>
