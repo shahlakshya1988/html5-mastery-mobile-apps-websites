@@ -1,0 +1,8 @@
+{
+  "name": "Code HTML Online",  
+  "short_name": "Code HTML",
+  "lang": "en-US",
+  "start_url": "./",
+  "display": "browser",
+  "theme_color": "orange"
+}
