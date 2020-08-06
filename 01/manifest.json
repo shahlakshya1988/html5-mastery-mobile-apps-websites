@@ -3,6 +3,6 @@
   "short_name": "Code HTML",
   "lang": "en-US",
   "start_url": "./",
-  "display": "browser",
+  "display": "standalone",
   "theme_color": "orange"
 }
