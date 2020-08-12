@@ -1,0 +1,83 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>HTML5 Day Conference</title>
+
+<header>
+    <img src="images/logo.png" height="50" alt="HTML5 Conference Logo" />
+    <h1>HTML5 Day Conference</h1>
+    <p>Petra, Jordan. November, 4th 2020</p>
+</header>
+
+<main>
+    <!-- <figure>
+        <img src="images/animation.gif" alt="Animation From The Conference" width="100%">
+        <figcaption>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ut ullam eos aliquam sequi praesentium totam odio iste aperiam ab sed numquam? Non quasi optio deserunt. Odit atque aspernatur sint.
+        </figcaption>
+    </figure> -->
+	<video muted playsinline webkit-playsinline autoplay loop width="100%" height="250px" >
+		<source src="resources/animation.mp4" type="video/mp4">
+	</video>
+    <h2>The conference in images</h2>
+    <u>
+        <li>
+            <img src="images/event1.jpg" alt="Event 1 Picture" width="300" height="82" srcset="images/event1.jpg 1x,images/event1-2x.jpg 2x,images/event1-3x.jpg 3x">
+        </li>
+        <li>
+            <img src="images/event2.jpg" alt="Event 2 Picture" width="300" height="225" srcset="images/event2.jpg 1x,images/event2-2x.jpg 2x,images/event2-3x.jpg 3x">
+        </li>
+        <li>
+            <img src="images/event3.jpg" alt="Event 3 Picture" width="300" height="183" srcset="images/event3.jpg 1x,images/event3-2x.jpg 2x,images/event3-3x.jpg 3x">
+        </li>
+    </u>
+
+    <h2>Listen to the Welcome Message</h2>
+	<audio controls autoplay loop src="resources/welcome.mp3" preload="metadata" height="50" width="150" ></audio>
+
+    <h2>About Petra</h2>
+	<video controls autoplay loop preload="metadata" src="resources/animation.mp4" height="150" width="300" poster="images/event3.jpg"></video>
+	<br>
+	<video controls autoplay loop preload="metadata" width="300" height="150" poster="images/event2.jpg">
+	<source src="resources/movie.webm"  type="video/webm">
+		<source src="resources/movie.mp4"  type="video/mp4">
+		
+	</video>
+
+    <h2>Schedule</h2>
+	<table>
+		<caption>This is caption</caption>
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Name</th>
+				<th>Time</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>HTML</td>
+				<td>1 to 2</td>
+			</tr>
+			<tr>
+				<td colspan="3">Break</td>
+			</tr>
+			<tr>
+				<td rowspan="2">2</td>
+				<td>PHP</td>
+				<td>3 to 7</td>
+			</tr>
+			<tr>
+				<td>PHP</td>
+				<td>3 to 7</td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+</main>
+
+<footer>
+    <p>If you have any questions, contact us on Twitter.</p>
+</footer>
